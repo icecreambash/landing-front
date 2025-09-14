@@ -1,0 +1,8 @@
+
+
+services:
+  vag_landing:
+    image: registry.eduecho.ru/vag_landing:v1
+    container_name: vag_landing
+    ports:
+      - "4004:3000"
