@@ -6,3 +6,9 @@ services:
     container_name: vag_landing
     ports:
       - "4004:3000"
+
+
+
+networks:
+  internal_net:
+    external: true
