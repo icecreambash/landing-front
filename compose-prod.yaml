@@ -6,9 +6,11 @@ services:
     container_name: vag_landing
     ports:
       - "4004:3000"
+    networks:
+      - pmx_internal_net
 
 
 
 networks:
-  internal_net:
+  pmx_internal_net:
     external: true
