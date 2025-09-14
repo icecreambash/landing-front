@@ -2,7 +2,7 @@
 
 services:
   vag_landing:
-    image: reg.aincc.ru/vag_landing:v1
+    image: reg.aincc.ru/vag_landing:v2
     container_name: vag_landing
     ports:
       - "4004:3000"
