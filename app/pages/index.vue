@@ -56,7 +56,8 @@ const toWhat = () => {
       <div class="flex grid grid-cols-3 max-md:grid-cols-1 gap-[28px]">
         <div class="flex flex-col gap-[12px]">
           <UButton @click="toPhone"  size="xl" icon="i-heroicons-phone" class="w-full flex place-content-center" label="Позвонить +74742200646"/>
-          <UButton @click="toWhat"  size="xl" icon="i-logos-whatsapp-icon" class="w-full flex place-content-center bg-green-500 hover:bg-green-600" label="Написать в WhatsApp"/>
+          <UButton @click="toWhat"  size="xl" icon="simple-icons:telegram" class="w-full flex place-content-center bg-blue-500 hover:bg-blue-600" label="Написать в Telegram"/>
+           <UButton @click="toWhat"  size="xl" icon="simple-icons:vk" class="w-full flex place-content-center bg-blue-700 hover:bg-blue-800" label="Написать в ВК"/>
         </div>
         <div class="flex flex-col gap-[6px]">
           <div class="" style="box-sizing: border-box; margin: 0px;  border: 0px; font-size: 15px; vertical-align: baseline; position: relative; min-height: 1px; float: left; font-family: Montserrat, sans-serif;">
