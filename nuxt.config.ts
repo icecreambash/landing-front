@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui','yandex-metrika-module-nuxt3'],
   colorMode:{
-    preference:'light'
+    preference:'light',
+    fallback: 'light'
   },
   css: ['~/assets/css/main.css'],
   vite: {    plugins: [      tailwindcss(),    ],  },
@@ -16,4 +17,10 @@ export default defineNuxtConfig({
     accurateTrackBounce: true,
     webvisor: true
   },
+  icon: {
+    customCollections: [{
+      prefix: 'custom',
+      dir: './app/assets/icons'
+    }]
+  }
 })
